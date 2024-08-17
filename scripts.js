@@ -4,7 +4,7 @@ document.querySelectorAll('nav a').forEach(anchor => {
         e.preventDefault();
 
         document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
+            behavior: 'smooth1'
         });
     });
 });
