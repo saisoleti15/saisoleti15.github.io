@@ -1,5 +1,7 @@
-/* General Reset */
-* {
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #2E3440; /* Soft Dark Gray */
+    color: #ECEFF4; /* Light Gray */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,26 +15,30 @@ body {
 }
 
 header {
-    background: #333;
-    color: #fff;
-    padding: 10px 0;
+    background-color: #5E81AC; /* Bright Blue */
+    color: #FFFFFF; /* White */
+    padding: 20px;
     text-align: center;
+    border-bottom: 2px solid #4C566A; /* Vibrant Cyan */
 }
 
-nav ul {
+nav {
     display: flex;
     justify-content: center;
-    list-style: none;
+    background-color: #4C566A; /* Vibrant Cyan */
+    padding: 10px;
 }
 
-nav ul li {
-    margin: 0 20px;
-}
-
-nav ul li a {
-    color: #fff;
+nav a {
+    color: #ECEFF4; /* Light Gray */
     text-decoration: none;
+    padding: 10px 20px;
     font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #81A1C1; /* Electric Blue */
+    color: #2E3440; /* Soft Dark Gray */
 }
 
 section {
@@ -40,59 +46,39 @@ section {
     text-align: center;
 }
 
-h1, h2 {
-    margin-bottom: 20px;
-}
-
-#home {
-    background: #555;
-    color: #fff;
-    padding: 100px 0;
-}
-
-#skills ul, #languages ul {
-    list-style: none;
-    padding: 0;
-}
-
-.timeline {
-    max-width: 600px;
+.container {
+    max-width: 1000px;
     margin: 0 auto;
     text-align: left;
-}
-
-.timeline-item {
-    background: #fff;
-    padding: 20px;
-    margin-bottom: 10px;
-    border-left: 5px solid #333;
-}
-
-form {
-    max-width: 400px;
-    margin: 0 auto;
-    text-align: left;
-}
-
-form input, form textarea {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-}
-
-form button {
-    width: 100%;
-    padding: 10px;
-    background: #333;
-    color: #fff;
-    border: none;
-    cursor: pointer;
 }
 
 footer {
-    background: #333;
-    color: #fff;
     text-align: center;
-    padding: 10px 0;
+    background-color: #4C566A; /* Vibrant Cyan */
+    color: #ECEFF4; /* Light Gray */
+    padding: 20px;
+    border-top: 2px solid #81A1C1; /* Electric Blue */
+}
+
+.button {
+    background-color: #5E81AC; /* Bright Blue */
+    color: #FFFFFF; /* White */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #8FBCBB; /* Bright Cyan */
+}
+
+a {
+    color: #8FBCBB; /* Bright Cyan */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #81A1C1; /* Electric Blue */
 }
