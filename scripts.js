@@ -5,6 +5,7 @@ document.querySelectorAll('nav a').forEach(anchor => {
 
         document.querySelector(this.getAttribute('href')).scrollIntoView({
             behavior: 'smooth1'
+        
         });
     });
 });
