@@ -1,78 +1,76 @@
-<style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            background-color: #f4f4f4;
-            color: #333;
-        }
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
 
-        header {
-            text-align: center;
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            border-bottom: 2px solid #444;
-        }
+header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-bottom: 2px solid #444;
+}
 
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: #444;
-            padding: 10px;
-        }
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+    padding: 10px;
+}
 
-        nav a {
-            color: white;
-            text-decoration: none;
-            padding: 10px 20px;
-            font-weight: bold;
-        }
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+}
 
-        nav a:hover {
-            background-color: #ddd;
-            color: black;
-        }
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
 
-        section {
-            padding: 40px 0;
-            text-align: center;
-        }
+section {
+    padding: 40px 0;
+    text-align: center;
+}
 
-        h1, h2 {
-            margin-bottom: 20px;
-        }
+h1, h2 {
+    margin-bottom: 20px;
+}
 
-        .container {
-            max-width: 1000px;
-            margin: 0 auto;
-            text-align: left;
-        }
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+}
 
-        .profile, .education, .skills, .experience, .languages {
-            margin-bottom: 40px;
-        }
+.profile, .education, .skills, .experience, .languages {
+    margin-bottom: 40px;
+}
 
-        .profile p {
-            margin: 10px 0;
-        }
+.profile p {
+    margin: 10px 0;
+}
 
-        .experience .job {
-            margin-bottom: 20px;
-        }
+.experience .job {
+    margin-bottom: 20px;
+}
 
-        .experience .job h3 {
-            margin-bottom: 5px;
-        }
+.experience .job h3 {
+    margin-bottom: 5px;
+}
 
-        footer {
-            text-align: center;
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            border-top: 2px solid #444;
-        }
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-top: 2px solid #444;
+}
 
-        .contact-info p {
-            margin: 5px 0;
-        }
-    </style>
+.contact-info p {
+    margin: 5px 0;
+}
