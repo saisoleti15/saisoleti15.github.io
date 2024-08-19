@@ -1,23 +1,18 @@
-// Example: Add smooth scrolling for navigation links
-document.querySelectorAll('nav a').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
-        e.preventDefault();
+// Add transition effects to sections when scrolling into view
+const sections = document.querySelectorAll('section');
 
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth1'
-        
-        });
+const options = {
+    threshold: 0.1
+};
+
+const observer = new IntersectionObserver(function(entries, observer) {
+    entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add('appear');
+        observer.unobserve(entry.target);
     });
-});
+}, options);
 
-// Example: Add form validation (optional)
-document.querySelector('form').addEventListener('submit', function(e) {
-    const name = document.querySelector('input[name="name"]').value;
-    const email = document.querySelector('input[name="email"]').value;
-    const message = document.querySelector('textarea[name="message"]').value;
-
-    if (!name || !email || !message) {
-        e.preventDefault();
-        alert('Please fill out all fields');
-    }
+sections.forEach(section => {
+    observer.observe(section);
 });
