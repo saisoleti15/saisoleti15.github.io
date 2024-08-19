@@ -1,5 +1,6 @@
 body {
-    font-family: 'Poppins';font-size: 22px;
+    font-family: 'Poppins', sans-serif; /* Use the 'Poppins' font */
+    font-size: 18px; /* Set a consistent font size for <p> and other text elements */
     background-color: #f4f4f4;
     color: #333;
     margin: 0;
@@ -20,7 +21,7 @@ header {
     justify-content: center;
 }
 
-profile-img {
+#profile-img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -31,14 +32,14 @@ profile-img {
 }
 
 .header-text h1 {
-    font-size: 48px;
+    font-size: 36px; /* Set a consistent font size for all headers */
     margin: 0;
     transition: font-size 0.3s ease;
 }
 
 .header-text p {
     margin: 10px 0 0 0;
-    font-size: 20px;
+    font-size: 18px; /* Ensure the font size for <p> elements is consistent */
 }
 
 #profile-img:hover {
@@ -50,7 +51,7 @@ header:hover {
 }
 
 h2 {
-    font-size: 28px;
+    font-size: 36px; /* Make h2 the same size as h1 */
     color: #009688;
     margin-bottom: 10px;
     position: relative;
@@ -78,7 +79,7 @@ h2:hover {
 }
 
 p {
-    font-size: 18px;
+    font-size: 18px; /* Consistent font size for <p> elements */
     line-height: 1.6;
     margin-bottom: 20px;
     transition: color 0.3s ease;
