@@ -1,6 +1,6 @@
 body {
-    font-family: 'Poppins', sans-serif; /* Use the 'Poppins' font */
-    font-size: 18px; /* Set a consistent font size for <p> and other text elements */
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
     background-color: #f4f4f4;
     color: #333;
     margin: 0;
@@ -13,6 +13,7 @@ header {
     color: white;
     padding: 40px 20px;
     transition: background-color 0.3s ease;
+    text-align: center;
 }
 
 .header-content {
@@ -32,14 +33,14 @@ header {
 }
 
 .header-text h1 {
-    font-size: 36px; /* Set a consistent font size for all headers */
+    font-size: 48px;
     margin: 0;
     transition: font-size 0.3s ease;
 }
 
 .header-text p {
     margin: 10px 0 0 0;
-    font-size: 18px; /* Ensure the font size for <p> elements is consistent */
+    font-size: 20px;
 }
 
 #profile-img:hover {
@@ -51,9 +52,9 @@ header:hover {
 }
 
 h2 {
-    font-size: 36px; /* Make h2 the same size as h1 */
+    font-size: 36px;
     color: #009688;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     position: relative;
     transition: color 0.3s ease, transform 0.3s ease;
 }
@@ -79,7 +80,7 @@ h2:hover {
 }
 
 p {
-    font-size: 18px; /* Consistent font size for <p> elements */
+    font-size: 22px;
     line-height: 1.6;
     margin-bottom: 20px;
     transition: color 0.3s ease;
@@ -87,6 +88,11 @@ p {
 
 p:hover {
     color: #555;
+}
+
+ul {
+    padding-left: 20px;
+    font-size: 22px;
 }
 
 section {
@@ -104,6 +110,11 @@ section:hover {
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
 }
 
+.job h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
 footer {
     text-align: center;
     padding: 20px;
@@ -115,4 +126,45 @@ footer {
 
 footer:hover {
     background-color: #00796b;
+}
+
+.contact-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.contact-box {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-box p {
+    font-size: 22px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.contact-box a {
+    color: #009688;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-box a:hover {
+    text-decoration: underline;
+}
+
+.contact-container:hover .contact-box {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
 }
